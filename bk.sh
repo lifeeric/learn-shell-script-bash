@@ -25,7 +25,7 @@ esac
 read -p "Which directory or file do you wanna backup: " file_suffix
 
 # it'll ask for directory where you want to store that file
-read -p "Which directory do you wanna store you back up file: " dir_name
+read -p "Which directory do you want back up to: " dir_name
 
 
 # show to user for patience 'cause we're searching for file
