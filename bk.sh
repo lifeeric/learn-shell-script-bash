@@ -32,12 +32,12 @@ echo "Searching in entire directory, please wait ..."
 
 # first check is the directory is available where you want to store data,
 # it exists then okay, if not, create directory then
-test -d $HOME/bash/$dir_name || mkdir -m 700 $HOME/bash/$dir_name
+test -d $HOME/$dir_name || mkdir -m 700 $HOME/$dir_name
 
 
 # now find the file which you're lookin' for
 
-find $HOME -path $HOME/bash -prune -o -name "*$file_suffix*" -exec cp $1 {} $HOME/bash/$dir_name \;
+find $HOME -path $HOME/$dir_name -prune -o -name "*$file_suffix*" -exec cp $1 {} $HOME/$dir_name \;
 
 
 # show success message if we're done
