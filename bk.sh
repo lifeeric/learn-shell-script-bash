@@ -16,6 +16,7 @@ case "$1" in
   echo""
   echo "Thanks"
  exit 0 ;;
+-f);; 
 *) echo "bk.sh --help for details"; exit 0
 esac
 
