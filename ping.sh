@@ -9,6 +9,9 @@
 case "$1" in
 -h | --help) echo "---- Welcom to Ping Script ---- "
              echo
+             echo "-e"
+                   echo "to execute the code"
+             echo
              echo "this shell will help you to find the server Address,"
              echo "if it's valid address, it wouldn't show anything to you"
              echo "if it invalid address you put in, it would show you error message"
