@@ -5,6 +5,20 @@
 # Last Edited: Jan 14
 # Script to ping to server
 
+# Help Page
+case "$1" in
+-h | --help) echo "---- Welcom to Ping Script ---- "
+             echo
+             echo "this shell will help you to find the server Address,"
+             echo "if it's valid address, it wouldn't show anything to you"
+             echo "if it invalid address you put in, it would show you error message"
+             echo 
+             echo "Thanks for having this script" 
+             exit 0 ;;
+-f);;
+*)   echo "ping.sh -h || --help for more details";
+     exit 0 ;;
+esac
 # prompt to user for value
 read -p "Which server should be pinged: " server_addr
 
