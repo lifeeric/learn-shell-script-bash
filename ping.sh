@@ -18,7 +18,7 @@ case "$1" in
              echo 
              echo "Thanks for having this script" 
              exit 0 ;;
--f);;
+-e);;
 *)   echo "ping.sh -h || --help for more details";
      exit 0 ;;
 esac
